@@ -1,51 +1,25 @@
 # Fridge Inventory
 
+The **Fridge Inventory** application is a powerful tool designed to streamline the management of shared refrigerator contents, ideal for use in restaurants, shared spaces, or households. This project is built using modern web technologies, providing an efficient way to track, organize, and manage fridge inventory.
 
+## Key Features
 
-# Overview
-The goal is to build a refrigerator inventory application. The app will allow users to manage their fridge contents through a digital fridge. This fridge is intended to be one large fridge used for something like a restaurant. Since many people access the fridge, users log what they added or removed. Fridge items are stored by category, for example apples would be stored under fruit. Fridge items also allow the user to see who put the item in the fridge. Thus this allows users to be more informed about what food they have thus improving the management of their fridge.
+- **User Accountability**: Tracks which user added or removed items, ensuring transparency in shared environments.
+- **Categorized Inventory**: Items are organized into categories (e.g., fruits, vegetables, dairy), enabling easy navigation and filtering.
+- **CRUD Operations**: Users can create, read, update, and delete items from the inventory seamlessly.
+- **Real-Time Updates**: The application dynamically updates inventory information, ensuring data accuracy at all times.
 
-# Data Requirements
-**Entities and Relationships**\
-*User*\
-For each user, we store their user ID, passcode, and name.
-This is so that we can identify who has done what in the fridge.
-M:M with FridgeItem: A user can add many items, but each FridgeItem is added by one specific user
+## Technologies Used
 
-*FridgeItem*\
-For each item in the refrigerator, we store the item name, quantity, and expiration date.
-Each item is linked to a user ID, indicating who added or updated it.
-M:M with User: one user can add multiple items to the fridge, but each item is added by a single user
-M:1 with Category: a category can have multiple items, but each item can only belong to one category.
+- **Frontend**: Built with **React**, providing a responsive and user-friendly interface.
+- **Backend**: Powered by **Node.js** with **Express**, enabling efficient server-side processing and API endpoints.
+- **Database**: Utilizes **MySQL** for data persistence, securely storing user and inventory information.
+- **Version Control**: Managed with **Git**, showcasing best practices in collaborative development.
 
-*Category*\
-Each item belongs to a category (e.g., vegetables, dairy, leftovers). The Category entity contains a unique category ID and a name for easy organization and filtering of fridge contents.
-1:M with category: One Category can have multiple items, while each item can only belong to one category.
+## How It Works
 
-
-**Login**\
-Users should be able to login to the application with their passcode so that their actions can be tracked
-Managing Fridge Contents:
-Users can add items, specify quantities, and set expiration dates.
-Users can delete items once they are consumed or removed.
-
-**Viewing and Organizing:**\
-Items are displayed in a categorized view to improve discoverability.
-Categories such as Dairy, Meat, Vegetable, Fruits.
-Users can sort items by different criteria, such as expiration date, quantity and the user who added the item.
-Search should allow for combining multiple conditions with "OR" and "AND" to search for an item and the user who added it.
-
-
-
-
-
-
-
-
-
-
-
-
-.
-
-
+1. **User Registration and Login**: Users create accounts and log in to access the shared fridge.
+2. **Item Management**: Users can add items to the inventory, specifying details such as category, quantity, and expiration date.
+3. **Accountability**: Every action is logged with the associated user's account to ensure proper tracking.
+4. **Category-Based Filtering**: Inventory items are sorted into predefined categories, making it easier to find specific items.
+5. **Real-Time Collaboration**: Multiple users can interact with the fridge inventory simultaneously, with changes reflected instantly.
