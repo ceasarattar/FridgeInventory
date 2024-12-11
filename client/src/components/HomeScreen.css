@@ -1,0 +1,78 @@
+.inventory-container {
+    padding: 20px;
+}
+
+.inventory-header {
+    text-align: center;
+    color: white; 
+    font-size: 2em; 
+    margin-bottom: 20px; 
+}
+
+.search-filter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 10px;
+    width: 70%;
+}
+
+.filter-input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.filter-button {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sort-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sort-button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.inventory-table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin: 20px 0;
+  table-layout: auto;
+  background-color: #333;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+  font-size: 1em;
+}
+
+
+.action-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.save-button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}

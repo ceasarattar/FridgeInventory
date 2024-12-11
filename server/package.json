@@ -1,0 +1,18 @@
+{
+  "name": "fridge480",
+  "version": "1.0.0",
+  "description": "Mohammad Ayesh, mayes3@uic.edu, GitHub : mayesh3\\\r Shareek Shaffie, smoah45@uic.edu, GitHub : shar33k\\\r Ceasar Attar, catta2@uic.edu, GitHub: ceasarattar\\\r Blaine Edwards, bedwa3@uic.edu, GitHub: blaineedwards45",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
+  }
+}

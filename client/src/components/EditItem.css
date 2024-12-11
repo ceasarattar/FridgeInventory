@@ -1,0 +1,84 @@
+
+.edit-item-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+.edit-item-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-item-container p {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.edit-item-container .form-group {
+    margin-bottom: 20px;
+}
+
+.edit-item-container .form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.edit-item-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.edit-item-container .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.edit-item-container .form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-item-container .form-actions button {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.edit-item-container .form-actions button:first-child {
+    background-color: #007bff;
+}
+
+.edit-item-container .form-actions button:first-child:hover {
+    background-color: #0056b3;
+}
+
+.edit-item-container .form-actions button:last-child {
+    background-color: #6c757d;
+}
+
+.edit-item-container .form-actions button:last-child:hover {
+    background-color: #565e64;
+}
